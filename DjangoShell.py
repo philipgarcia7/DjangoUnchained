@@ -19,4 +19,4 @@ print(t.date_added)
 entries = t.entry_set.all()
 
 for e in entries:
-    print(e)
+    print(e.text)
